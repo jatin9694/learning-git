@@ -1,9 +1,10 @@
 pipeline{
-  agent any {
-    stage(checking first project){
-      steps{
-        echo "Hello world"
+    agent any 
+        stages{
+        stage('checking first project'){
+        steps{
+            echo "Hello world"
            }
-          }
         }
-      }
+    }
+ }
