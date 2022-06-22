@@ -11,5 +11,10 @@ pipeline{
                  echo "Hello Gandu"
            }
         }
+            stage('task status'){
+            steps{
+                 echo "completed task"
+           }
+        }
     }
  }
