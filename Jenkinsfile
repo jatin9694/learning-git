@@ -6,5 +6,10 @@ pipeline{
                  echo "Hello world"
            }
         }
+        stage('checking printing'){
+            steps{
+                 echo "Hello Gandu"
+           }
+        }
     }
  }
